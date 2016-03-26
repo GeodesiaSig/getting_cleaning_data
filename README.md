@@ -7,7 +7,7 @@ This repository contains:
 * It is mandatory install dplyr R package from your favorite CRAN mirror.
 * It is mandatory a internet connection to download [original source of information ](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and  [data description ](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-Any question, please let me now. let me a message or send an [email](geodesia.sig@gmail.com)
+Any question, please let me now. let me a message or send an <address@example.com> 
 
 
 
