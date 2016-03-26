@@ -77,7 +77,8 @@ by_SubjectID_Activity <- (group_by(common, SubjectID, activity)%>%
 names(by_SubjectID_Activity)[3:length(names(by_SubjectID_Activity))] <- (
     paste0("MeanOf", names(common)[3:length(names(common))])
 )
-
+rm(common)
+gc()
 write.table(x = by_SubjectID_Activity, file = file.path(getwd(), "tidy_data_set.txt"), row.names = FALSE)
 
 
