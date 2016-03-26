@@ -35,7 +35,7 @@ Each one of the varaibles were measure in six differentes activities
 5. STANDING  
 6. LAYING  
 
-### Resulting Varaibles Set
+### Resulting Variables Set
 For each variable, the script group by subject and activity all measures like SQL query applying mean function for each variable. Then the resulting data set contains 180 observations and 68 variables. The original names were changed in this way:  
 - the prefixes t and f by: Time and Frequency  
 - Acc by: Accelerometer  
