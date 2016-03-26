@@ -26,7 +26,7 @@ For ech one of the following variables, many function were aplying, but only two
 - fBodyGyroJerkMag  
 
 ### Activities
-Each one of the varaibles were measure in six differentes activities  
+Each one of the varaibles were measure in six differents activities  
 
 1. WALKING  
 2. WALKING_UPSTAIRS  
