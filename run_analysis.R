@@ -70,7 +70,7 @@ h <- (gsub(pattern = "^t", replacement = "time", names(common))%>%
 names(common) <- h
 rm(h)
 gc()
-
+## output step 5, independent tidy data set with the average of each variable for each activity and each subject.
 by_SubjectID_Activity <- (group_by(common, SubjectID, activity)%>%
                           summarize_each(funs(mean), vars = c(3:length(names(common))))
                           )
