@@ -78,6 +78,6 @@ names(by_SubjectID_Activity)[3:length(names(by_SubjectID_Activity))] <- (
     paste0("MeanOf", names(common)[3:length(names(common))])
 )
 
-write.csv(x = by_SubjectID_Activity, file = file.path(getwd(), "tidy_data_set.csv"), row.names = FALSE)
+write.table(x = by_SubjectID_Activity, file = file.path(getwd(), "tidy_data_set.txt"), row.names = FALSE)
 
 
